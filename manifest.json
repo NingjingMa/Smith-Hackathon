@@ -1,5 +1,5 @@
 {
-	"name": "google doc ext",
+	"name": "google doc outline ext",
 	"description" : "extension",
 	"version": "0.1.0",
 	"manifest_version":2,
@@ -12,7 +12,7 @@
 		"default_popup":"popup.html"
 	},
 	"permissions":[
-		"tabs",
+		"tabs", // track what the user is doing with the tabs
 		"https://www.google.come/*",
 		"storage"]
 
